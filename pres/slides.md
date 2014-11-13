@@ -2,11 +2,15 @@
 ## Docker in organizations
 Note:
 - Sharing experience of my last months of work: delta soft skills > delta technical skills
+- Share considerations
 - How many people are here to get an answer to the question "is Docker a tool for me?", or do you already know the answer to that?
 
 -
 ## "Is Docker for me?"
 ### ... for us?
+Note:
+- still, that is the question I would like to discuss.
+- or more importantly, when we change "me" into an org. or project
 
 ---
 
@@ -27,7 +31,7 @@ Note: Docker just might not be a perfect fit for an organisation in a certain st
 
 ## IT in a company
 - Supportive use of software <!-- .element: class="fragment" data-fragment-index="1" -->
-- Software as key <!-- .element: class="fragment" data-fragment-index="2" -->
+- Software as key 'value'<!-- .element: class="fragment" data-fragment-index="2" --> 
 Note: interest in companies or projects that have software a key value. Developing it and delivering/selling it.
 
 ---
@@ -35,6 +39,13 @@ Note: interest in companies or projects that have software a key value. Developi
 ## Time to market
 <img src="pres/enthusiasm-manager.jpg" width="45%" style="margin-top: 50px;" /> <!-- .element: class="fragment" data-fragment-index="1" -->
 ### Will Docker help?  <!-- .element: class="fragment" data-fragment-index="2" -->
+
 Note:
 - TTM is a key concept. Reducing TTM will result in value. Happy sales, happy scrum masters, happy CEOs, etc. 
 - Question is, will Docker help you with that? So, this brings us from "Is Docker for me?" to "Is Docker for us?"
+
+---
+
+## Value stream
+### <img style="height: 100px; border: none; box-shadow: none;" src="pres/lamp.jpg"/> &#8594; PO &#8594; Dev &#8594; Test &#8594; Ops &#8594; <img style="height: 100px; border: none; box-shadow: none;" src="pres/user.png"/>
+### Hand-offs <!-- .element: class="fragment" data-fragment-index="2" -->
