@@ -1,8 +1,7 @@
 # Prerequisites to Docker 
 ## Docker in organizations
 Note:
-- Sharing experience of my last months of work: delta soft skills > delta technical skills
-- Share considerations
+- Sharing recent experience + share considerations
 - How many people are here to get an answer to the question "is Docker a tool for me?", or do you already know the answer to that?
 
 -
@@ -18,21 +17,20 @@ Note:
 ### & Docker
 <img src="pres/enthusiasm-dev.jpg" width="75%" style="margin-top: 50px;"/>
 Note:
-My experience up to Container Solutions has mostly been with developers, at this meetup etc. And developers usually are pretty enthusiatic about Docker!
+- First Point of View. Developer + Ops + Test
+- Developers usually are pretty enthusiatic about Docker!
 -
 <img src="pres/enthusiasm-manager.jpg" width="75%" style="margin-top: 50px;" />
-Note: Developers van have a bit of a tunnel vision. It is easy to assume that all parts in the organisation will be as enthusiatic as the dev, however...
+Note: so everyone is, right?
 -
 ## ...
 <img src="pres/enthusiasm-manager-not.jpg" width="75%" style="margin-top: 50px;" />
-Note: Docker just might not be a perfect fit for an organisation in a certain state, leaving managers with a headache.
+Note: However, Docker just might not be a perfect fit for an organisation in a certain state, leaving managers with a headache.
 
 ---
 
-## IT in a company
-- Supportive use of software <!-- .element: class="fragment" data-fragment-index="1" -->
-- Software as key 'value'<!-- .element: class="fragment" data-fragment-index="2" --> 
-Note: interest in companies or projects that have software a key value. Developing it and delivering/selling it.
+## Observation 1
+# Always keep the larger process in mind
 
 ---
 
@@ -92,6 +90,34 @@ Note:
 
 ---
 
-## Observation 1
-# Always keep the larger process in mind
-Note: I have seen companies where technological enthusiasm holds back the whole process
+## Caution / awareness
+
+- in conclusion to "the larger process", this is a point of caution
+- is DevOps possible in your organisation? It is not just Docker!
+
+---
+
+## Non-Dev PoVs, aka
+# How to sell Docker
+
+---
+
+## CEO
+
+### Saving costs <!-- .element: class="fragment" data-fragment-index="1" -->
+### Faster time to market <!-- .element: class="fragment" data-fragment-index="2" -->
+### Hiring perspective: hot <!-- .element: class="fragment" data-fragment-index="3" -->
+### Allow growth where technical complexity was a boundary before <!-- .element: class="fragment" data-fragment-index="4" -->
+Note:
+- cost saving due to less overprovisioning
+-- elastic scaling
+-- resource optimilisation (Docker vs. VM, no OS)
+- Growth in micro-service setup
+
+---
+
+## Project / Middle managers
+
+### Reducing dependencies between teams <!-- .element: class="fragment" data-fragment-index="1" -->
+### Attractive for engineers <!-- .element: class="fragment" data-fragment-index="2" -->
+### Agile process benefits <!-- .element: class="fragment" data-fragment-index="3" -->
