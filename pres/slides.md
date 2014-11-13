@@ -47,5 +47,51 @@ Note:
 ---
 
 ## Value stream
-### <img style="height: 100px; border: none; box-shadow: none;" src="pres/lamp.jpg"/> &#8594; PO &#8594; Dev &#8594; Test &#8594; Ops &#8594; <img style="height: 100px; border: none; box-shadow: none;" src="pres/user.png"/>
-### Hand-offs <!-- .element: class="fragment" data-fragment-index="2" -->
+<br/>
+### <img style="height: 100px; border: none; box-shadow: none; vertical-align: middle;" src="pres/lamp.jpg"/> &#8594; PO &#8594; Dev &#8594; Test &#8594; Ops &#8594; <img style="height: 100px; border: none; box-shadow: none; vertical-align: middle;" src="pres/user.png"/>
+Note:
+Nothing new here, this is all old Toyota stuff.
+
+---
+
+## Theory of constraints
+<br/>
+### PO (5) &#8594; Dev (2) &#8594; Test (4) &#8594; Ops (5) <!-- .element: class="fragment" data-fragment-index="1" -->
+### PO (5) &#8594; Dev (4) &#8594; Test (4) &#8594; Ops (5) <!-- .element: class="fragment" data-fragment-index="2" -->
+### PO (5) &#8594; Dev (4) &#8594; Test (4) &#8594; Ops (3) <!-- .element: class="fragment" data-fragment-index="3" -->
+### PO (5) &#8594; Dev (9) &#8594; Test (4) &#8594; Ops (3) <!-- .element: class="fragment" data-fragment-index="4" style="color: red" -->
+Note:
+- The idea is simple. Improve the bottleneck speed. Even when this reduces capacity of another step
+- If you can use Docker to do this, do!
+- Actually bad to increase non-bottlenecks. Seen lots of finished dev-work that could not be deployed, value reduces over time.
+
+---
+
+## Theory of constraints
+## Hand-offs
+<br/>
+### (5) &#8594; Dev (3) &#8594; (2) &#8594; Test (3) &#8594; (5) <!-- .element: class="fragment" data-fragment-index="1" -->
+### PO (5) &#8594; TDD (5) &#8594; Ops (5) <!-- .element: class="fragment" data-fragment-index="2" -->
+### PO (5) &#8594; DevOps (8) <!-- .element: class="fragment" data-fragment-index="3" -->
+Note:
+- Getting information from one "pillar" to the next can take its own toll. That is why we have concepts such as TDD and DevOps
+- Docker can definitely help us to get "real" DevOps, "Deployable becomes deliverable", due to the new abstraction layers such as Mesos
+
+---
+
+## Agile advantages
+<br/>
+### PO (5) &#8594; Test Driv Dev (5) &#8594; Ops (5)
+### PO (?) &#8594; DevOps (8)
+### PO (7) &#8594; DevOps (8) <!-- .element: class="fragment" data-fragment-index="1" -->
+Note: 
+- Is the DevOps step a win here?
+- It has agile advantages.
+-- Less risk due to RollBackability
+-- Possibilities like A/B testing
+
+---
+
+## Observation 1
+# Always keep the larger process in mind
+Note: I have seen companies where technological enthusiasm holds back the whole process

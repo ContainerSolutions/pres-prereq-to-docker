@@ -1,4 +1,4 @@
 var config = {
-    author: "Container Solutions",
+    author: "Quinten Krijger",
     twitter: "containersoluti"
 };
