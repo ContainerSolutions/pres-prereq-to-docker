@@ -54,7 +54,7 @@ Note:
 
 ---
 
-# Scope
+# Scope and impact
 <br/>
 
 |           | Environment      | Testing              | Operations |
@@ -63,11 +63,19 @@ Note:
 | Team      | Dev. environment | Autom. tests         | Replace Puppet scripts with Docker, Resource optimization |
 | Company   | Comp. wide repos | Monkey, Gorilla, A/B | Elastic scaling, Self-healing |
 
-Note: keep in mind the SCOPE of what you want to do and who you need to INVOLVE
+Note: When looking for Docker use cases, try to find simple use cases you can do by yourself. Then you can involve more people.
 
 ---
 
 # Conclusion
-* Map the delivery pipeline to find Docker uses
-* Involve who you need to make stuff work
+<br/>
 
+- Do not use Docker when it does not help. Iterate and you will get Docker use cases.
+- When looking for Docker use cases, try to find simple use cases you can do by yourself. Then you can involve more people.
+
+---
+
+* https://github.com/ContainerSolutions/pres-base
+* https://github.com/ContainerSolutions/pres-prereq-to-docker
+
+# :)
